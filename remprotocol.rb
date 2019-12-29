@@ -9,7 +9,7 @@ class Remprotocol < Formula
 
    depends_on "gmp"
    depends_on "gettext"
-   depends_on "openssl@1.1"
+   depends_on "openssl"
    depends_on "libusb"
    depends_on :macos => :mojave
    depends_on :arch =>  :intel
