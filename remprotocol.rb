@@ -16,7 +16,7 @@ class Remprotocol < Formula
 
    bottle do
       root_url "https://github.com/RemmeAuth/remprotocol/releases/download/0.3.0"
-      sha256 "1567c3558dd1238db4629d7927d563506146872dbb2cb8b1ae58707242c2ffc5" => :mojave
+      sha256 "a3f8f19fe078726f065db0b278de7936c6ef6305a6cb3f85167efeb783bdd78a" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
